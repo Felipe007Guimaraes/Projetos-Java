@@ -12,7 +12,7 @@ public class LojaTintas {
         float area = a.nextInt();
         float quantity= area/6;
         System.out.println("Será necessário "+quantity+" Litros de tinta para a pintura!");
-        System.out.println("Você pode comprar: \n"+((int)Math.ceil(quantity/gallons))+"galões no valor de R$25,00\nou");
+        System.out.println("Você pode comprar: \n"+((int)Math.ceil(quantity/gallons))+"galões no valor de R$25,00 \n ou");
         System.out.println(((int)Math.ceil(quantity/cans))+" Latas no valor de R$80,00");
 
     }
